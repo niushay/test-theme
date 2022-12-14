@@ -1,0 +1,33 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./resources/assets/core/js/custom/account/referrals/referral-program.js":
+/*!*******************************************************************************!*\
+  !*** ./resources/assets/core/js/custom/account/referrals/referral-program.js ***!
+  \*******************************************************************************/
+/***/ (() => {
+
+eval("\n\n// Class definition\nvar KTAccountReferralsReferralProgram = function () {\n  // Private functions\n\n  var initReferralProgrammClipboard = function initReferralProgrammClipboard() {\n    var button = document.querySelector('#kt_referral_program_link_copy_btn');\n    var input = document.querySelector('#kt_referral_link_input');\n    var clipboard = new ClipboardJS(button);\n    clipboard.on('success', function (e) {\n      var buttonCaption = button.innerHTML;\n      //Add bgcolor\n      input.classList.add('bg-success');\n      input.classList.add('text-inverse-success');\n      button.innerHTML = 'Copied!';\n      setTimeout(function () {\n        button.innerHTML = buttonCaption;\n\n        // Remove bgcolor\n        input.classList.remove('bg-success');\n        input.classList.remove('text-inverse-success');\n      }, 3000); // 3seconds\n\n      e.clearSelection();\n    });\n  };\n\n  // Public methods\n  return {\n    init: function init() {\n      initReferralProgrammClipboard();\n    }\n  };\n}();\n\n// On document ready\nKTUtil.onDOMContentLoaded(function () {\n  KTAccountReferralsReferralProgram.init();\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvYXNzZXRzL2NvcmUvanMvY3VzdG9tL2FjY291bnQvcmVmZXJyYWxzL3JlZmVycmFsLXByb2dyYW0uanMuanMiLCJtYXBwaW5ncyI6IkFBQWE7O0FBRWI7QUFDQSxJQUFJQSxpQ0FBaUMsR0FBRyxZQUFZO0VBQ2hEOztFQUVBLElBQUlDLDZCQUE2QixHQUFHLFNBQWhDQSw2QkFBNkIsR0FBYztJQUMzQyxJQUFJQyxNQUFNLEdBQUdDLFFBQVEsQ0FBQ0MsYUFBYSxDQUFDLG9DQUFvQyxDQUFDO0lBQ3pFLElBQUlDLEtBQUssR0FBR0YsUUFBUSxDQUFDQyxhQUFhLENBQUMseUJBQXlCLENBQUM7SUFDN0QsSUFBSUUsU0FBUyxHQUFHLElBQUlDLFdBQVcsQ0FBQ0wsTUFBTSxDQUFDO0lBRXZDSSxTQUFTLENBQUNFLEVBQUUsQ0FBQyxTQUFTLEVBQUUsVUFBU0MsQ0FBQyxFQUFFO01BQ2hDLElBQUlDLGFBQWEsR0FBR1IsTUFBTSxDQUFDUyxTQUFTO01BQ3BDO01BQ0FOLEtBQUssQ0FBQ08sU0FBUyxDQUFDQyxHQUFHLENBQUMsWUFBWSxDQUFDO01BQ2pDUixLQUFLLENBQUNPLFNBQVMsQ0FBQ0MsR0FBRyxDQUFDLHNCQUFzQixDQUFDO01BRTNDWCxNQUFNLENBQUNTLFNBQVMsR0FBRyxTQUFTO01BRTVCRyxVQUFVLENBQUMsWUFBVztRQUNsQlosTUFBTSxDQUFDUyxTQUFTLEdBQUdELGFBQWE7O1FBRWhDO1FBQ0FMLEtBQUssQ0FBQ08sU0FBUyxDQUFDRyxNQUFNLENBQUMsWUFBWSxDQUFDO1FBQ3BDVixLQUFLLENBQUNPLFNBQVMsQ0FBQ0csTUFBTSxDQUFDLHNCQUFzQixDQUFDO01BQ2xELENBQUMsRUFBRSxJQUFJLENBQUMsQ0FBQyxDQUFFOztNQUVYTixDQUFDLENBQUNPLGNBQWMsRUFBRTtJQUN0QixDQUFDLENBQUM7RUFDTixDQUFDOztFQUVEO0VBQ0EsT0FBTztJQUNIQyxJQUFJLEVBQUUsZ0JBQVk7TUFDZGhCLDZCQUE2QixFQUFFO0lBQ25DO0VBQ0osQ0FBQztBQUNMLENBQUMsRUFBRTs7QUFFSDtBQUNBaUIsTUFBTSxDQUFDQyxrQkFBa0IsQ0FBQyxZQUFXO0VBQ2pDbkIsaUNBQWlDLENBQUNpQixJQUFJLEVBQUU7QUFDNUMsQ0FBQyxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vcmVzb3VyY2VzL2Fzc2V0cy9jb3JlL2pzL2N1c3RvbS9hY2NvdW50L3JlZmVycmFscy9yZWZlcnJhbC1wcm9ncmFtLmpzPzU0YWEiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0XCI7XHJcblxyXG4vLyBDbGFzcyBkZWZpbml0aW9uXHJcbnZhciBLVEFjY291bnRSZWZlcnJhbHNSZWZlcnJhbFByb2dyYW0gPSBmdW5jdGlvbiAoKSB7XHJcbiAgICAvLyBQcml2YXRlIGZ1bmN0aW9uc1xyXG5cclxuICAgIHZhciBpbml0UmVmZXJyYWxQcm9ncmFtbUNsaXBib2FyZCA9IGZ1bmN0aW9uKCkge1xyXG4gICAgICAgIHZhciBidXR0b24gPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCcja3RfcmVmZXJyYWxfcHJvZ3JhbV9saW5rX2NvcHlfYnRuJyk7XHJcbiAgICAgICAgdmFyIGlucHV0ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignI2t0X3JlZmVycmFsX2xpbmtfaW5wdXQnKTtcclxuICAgICAgICB2YXIgY2xpcGJvYXJkID0gbmV3IENsaXBib2FyZEpTKGJ1dHRvbik7XHJcblxyXG4gICAgICAgIGNsaXBib2FyZC5vbignc3VjY2VzcycsIGZ1bmN0aW9uKGUpIHtcclxuICAgICAgICAgICAgdmFyIGJ1dHRvbkNhcHRpb24gPSBidXR0b24uaW5uZXJIVE1MO1xyXG4gICAgICAgICAgICAvL0FkZCBiZ2NvbG9yXHJcbiAgICAgICAgICAgIGlucHV0LmNsYXNzTGlzdC5hZGQoJ2JnLXN1Y2Nlc3MnKTtcclxuICAgICAgICAgICAgaW5wdXQuY2xhc3NMaXN0LmFkZCgndGV4dC1pbnZlcnNlLXN1Y2Nlc3MnKTtcclxuXHJcbiAgICAgICAgICAgIGJ1dHRvbi5pbm5lckhUTUwgPSAnQ29waWVkISc7XHJcblxyXG4gICAgICAgICAgICBzZXRUaW1lb3V0KGZ1bmN0aW9uKCkge1xyXG4gICAgICAgICAgICAgICAgYnV0dG9uLmlubmVySFRNTCA9IGJ1dHRvbkNhcHRpb247XHJcblxyXG4gICAgICAgICAgICAgICAgLy8gUmVtb3ZlIGJnY29sb3JcclxuICAgICAgICAgICAgICAgIGlucHV0LmNsYXNzTGlzdC5yZW1vdmUoJ2JnLXN1Y2Nlc3MnKTsgXHJcbiAgICAgICAgICAgICAgICBpbnB1dC5jbGFzc0xpc3QucmVtb3ZlKCd0ZXh0LWludmVyc2Utc3VjY2VzcycpOyBcclxuICAgICAgICAgICAgfSwgMzAwMCk7ICAvLyAzc2Vjb25kc1xyXG5cclxuICAgICAgICAgICAgZS5jbGVhclNlbGVjdGlvbigpO1xyXG4gICAgICAgIH0pO1xyXG4gICAgfVxyXG5cclxuICAgIC8vIFB1YmxpYyBtZXRob2RzXHJcbiAgICByZXR1cm4ge1xyXG4gICAgICAgIGluaXQ6IGZ1bmN0aW9uICgpIHtcclxuICAgICAgICAgICAgaW5pdFJlZmVycmFsUHJvZ3JhbW1DbGlwYm9hcmQoKTtcclxuICAgICAgICB9XHJcbiAgICB9XHJcbn0oKTtcclxuXHJcbi8vIE9uIGRvY3VtZW50IHJlYWR5XHJcbktUVXRpbC5vbkRPTUNvbnRlbnRMb2FkZWQoZnVuY3Rpb24oKSB7XHJcbiAgICBLVEFjY291bnRSZWZlcnJhbHNSZWZlcnJhbFByb2dyYW0uaW5pdCgpO1xyXG59KTtcclxuIl0sIm5hbWVzIjpbIktUQWNjb3VudFJlZmVycmFsc1JlZmVycmFsUHJvZ3JhbSIsImluaXRSZWZlcnJhbFByb2dyYW1tQ2xpcGJvYXJkIiwiYnV0dG9uIiwiZG9jdW1lbnQiLCJxdWVyeVNlbGVjdG9yIiwiaW5wdXQiLCJjbGlwYm9hcmQiLCJDbGlwYm9hcmRKUyIsIm9uIiwiZSIsImJ1dHRvbkNhcHRpb24iLCJpbm5lckhUTUwiLCJjbGFzc0xpc3QiLCJhZGQiLCJzZXRUaW1lb3V0IiwicmVtb3ZlIiwiY2xlYXJTZWxlY3Rpb24iLCJpbml0IiwiS1RVdGlsIiwib25ET01Db250ZW50TG9hZGVkIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/assets/core/js/custom/account/referrals/referral-program.js\n");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./resources/assets/core/js/custom/account/referrals/referral-program.js"]();
+/******/ 	
+/******/ })()
+;
